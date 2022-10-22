@@ -1,0 +1,22 @@
+export const SliderData = [
+  {
+    image:
+      "https://assets.flowerstore.ph/public/tenantPH/app/assets/images/banner/747_AXIj8CZQJJuV4KIi9RmLcGeTR.jpg",
+  },
+  {
+    image:
+      "https://assets.flowerstore.ph/public/tenantPH/app/assets/images/banner/747_a9m2YDPwwhLx8GqDQbf6Wv9sI.jpg",
+  },
+  {
+    image:
+      "https://assets.flowerstore.ph/public/tenantPH/app/assets/images/banner/747_Wg5GqS4EStjZadVrckvxWqMzv.jpg",
+  },
+  {
+    image:
+      "https://assets.flowerstore.ph/public/tenantPH/app/assets/images/banner/747_CPr29TGtmoef8DbANQNkfAevB.webp",
+  },
+  {
+    image:
+      "https://assets.flowerstore.ph/public/tenantPH/app/assets/images/banner/747_MvyjH2XVz0V5XxKwtNrTlTB5T.jpg",
+  },
+];

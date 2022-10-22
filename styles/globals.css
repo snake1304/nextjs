@@ -1,0 +1,153 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.navbar{
+  padding-left: 80px;
+  padding-right: 80px  ;
+  background: #e9ecef;
+}
+.logo{
+  width: 200px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img{
+  object-fit: cover;
+  object-position: 0 30%;
+}
+/*Slide*/
+.imgIndex1{
+  height: 20vh;
+  width: 320px;
+  margin-top: 22px;
+}
+.imgIndex2{
+  width: 320px;
+  height: 20vh;
+  margin-top: 22px;
+
+
+}
+.slider {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.backgroundInSlide {
+  width: 100%;
+  height: 40px;
+  background-color: #edd6c8;
+  margin-right: 100%;
+  
+  
+}
+
+.image {
+  margin-right:100px;
+  width: 800px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  font-size: 2rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  font-size: 2rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+
+/* ----------- Loading ------------- */
+@import url("./loading.css");
+
+/* ----------- Products ------------- */
+@import url("./product.css");
+
+/* ----------- Profile ------------- */
+@import url("./profile.css");
+
+/* ----------- Products Manager ------------- */
+@import url("./products_manager.css");
+
+/* ----------- Footer ------------- */
+@import url("./footer.css");
+
+/* ----------- About ------------- */
+@import url("./about.css");
+
+@import url("./contact.css");
+
+@import url("./signin.css");
+
+
+#box {
+  display: none;
+  width: 100px;
+  height: 100px;
+  background-color: salmon;
+  color: white;
+}
+
+.logo {
+  height: 60px;
+  object-fit: cover;
+   object-position:100% ;
+}
+
+
+.container11 {
+  padding: 40px;
+  background: #419be0;
+}
+
+.slick-slide img {
+  margin: auto;
+}
+
+img.imgIndex1 {
+  width: 100%;
+  height: 290px;
+}
+img.imgIndex2 {
+  width: 100%;
+  height: 93px;
+}
